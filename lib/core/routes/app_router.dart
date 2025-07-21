@@ -1,7 +1,10 @@
-import 'package:flutter_bloc_app/core/constants/app_constants.dart';
-import 'package:flutter_bloc_app/core/routes/app_routes.dart';
+// 3rd Party Packages
 import 'package:go_router/go_router.dart';
 import 'package:flutter/material.dart';
+
+// My Packages
+import '../constants/app_constants.dart';
+import 'app_routes.dart';
 
 // Page imports
 import 'package:flutter_bloc_app/features/home/view/home_view.dart';

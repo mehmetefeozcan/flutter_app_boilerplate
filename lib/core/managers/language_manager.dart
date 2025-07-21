@@ -7,7 +7,7 @@ class LanguageManager = _LanguageManagerBase with _$LanguageManager;
 
 abstract class _LanguageManagerBase with Store {
   @observable
-  String langCode = 'tr';
+  String langCode = 'eb';
 
   @action
   void changeLang(String lang) {
