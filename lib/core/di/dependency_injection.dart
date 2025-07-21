@@ -6,4 +6,5 @@ final getIt = GetIt.instance;
 
 void setup() {
   getIt.registerSingleton<LanguageManager>(LanguageManager());
+  getIt.registerSingleton<ThemeManager>(ThemeManager());
 }
