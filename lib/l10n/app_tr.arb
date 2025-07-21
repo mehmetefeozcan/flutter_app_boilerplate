@@ -1,0 +1,6 @@
+{
+  "helloWorld": "Merhaba Dünya!",
+  "@helloWorld": {
+    "description": "Geleneksel yeni doğan programcı selamlaması"
+  }
+}
