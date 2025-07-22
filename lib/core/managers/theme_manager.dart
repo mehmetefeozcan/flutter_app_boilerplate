@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc_app/core/theme/text/text_theme.dart';
 import 'package:mobx/mobx.dart';
 
 import '../theme/colors/index.dart';
@@ -27,8 +28,21 @@ abstract class _ThemeManagerBase with Store {
       scaffoldBackgroundColor: colors.background,
       cardColor: colors.cardBackground,
       textTheme: TextTheme(
-        bodyLarge: TextStyle(color: colors.primaryText),
-        bodyMedium: TextStyle(color: colors.secondaryText),
+        displayLarge: CustomTextTheme.displayLarge,
+        displayMedium: CustomTextTheme.displayMedium,
+        displaySmall: CustomTextTheme.displaySmall,
+        headlineLarge: CustomTextTheme.headlineLarge,
+        headlineMedium: CustomTextTheme.headlineMedium,
+        headlineSmall: CustomTextTheme.headlineSmall,
+        titleLarge: CustomTextTheme.titleLarge,
+        titleMedium: CustomTextTheme.titleMedium,
+        titleSmall: CustomTextTheme.titleSmall,
+        bodyLarge: CustomTextTheme.bodyLarge,
+        bodyMedium: CustomTextTheme.bodyMedium,
+        bodySmall: CustomTextTheme.bodySmall,
+        labelLarge: CustomTextTheme.labelLarge,
+        labelMedium: CustomTextTheme.labelMedium,
+        labelSmall: CustomTextTheme.labelSmall,
       ),
       appBarTheme: AppBarTheme(
         backgroundColor: colors.primaryColor,

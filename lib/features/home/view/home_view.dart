@@ -31,21 +31,66 @@ class HomeView extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Text('Display L', style: context.displayLarge),
-              Text('Display M', style: context.displayMedium),
-              Text('Display S', style: context.displaySmall),
-              Text('Headline L', style: context.headlineLarge),
-              Text('Headline M', style: context.headlineMedium),
-              Text('Headline S', style: context.headlineSmall),
-              Text('Title L', style: context.titleLarge),
-              Text('Title M', style: context.titleMedium),
-              Text('Title S', style: context.titleSmall),
-              Text('Body L', style: context.bodyLarge),
-              Text('Body M', style: context.bodyMedium),
-              Text('Body S', style: context.bodySmall),
-              Text('Label L', style: context.labelLarge),
-              Text('Label M', style: context.labelMedium),
-              Text('Label S', style: context.labelSmall),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.displayLarge,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.displayMedium,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.displaySmall,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.headlineLarge,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.headlineMedium,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.headlineSmall,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.titleLarge,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.titleMedium,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.titleSmall,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.bodyLarge,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.bodyMedium,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.bodySmall,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.labelLarge,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.labelMedium,
+              ),
+              Text(
+                AppLocalizations.of(context)!.helloWorld,
+                style: context.labelSmall,
+              ),
             ],
           ),
         ),

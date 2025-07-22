@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class TextTheme {
-  TextTheme._();
+class CustomTextTheme {
+  CustomTextTheme._();
   // Displays
   static TextStyle displayLarge = TextStyle(fontSize: 57.sp);
   static TextStyle displayMedium = TextStyle(fontSize: 48.sp);
