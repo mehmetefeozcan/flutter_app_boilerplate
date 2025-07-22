@@ -10,4 +10,10 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get helloWorld => 'Merhaba Dünya!';
+
+  @override
+  String get changeLang => 'Dil Değiştir';
+
+  @override
+  String get changeTheme => 'Tema Değiştir';
 }

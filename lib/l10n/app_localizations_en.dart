@@ -10,4 +10,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get helloWorld => 'Hello World!';
+
+  @override
+  String get changeLang => 'Change Language';
+
+  @override
+  String get changeTheme => 'Change Theme';
 }

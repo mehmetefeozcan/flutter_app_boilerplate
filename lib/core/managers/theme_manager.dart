@@ -16,7 +16,7 @@ abstract class _ThemeManagerBase with Store {
   AppColorsBase get colors => isDarkMode ? DarkColors() : LightColors();
 
   @action
-  void toggleChange() {
+  void changeTheme() {
     isDarkMode = !isDarkMode;
   }
 

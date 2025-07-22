@@ -20,11 +20,16 @@ class HomeView extends StatelessWidget {
         model.setContext(context);
         model.init();
       },
-      onPageBuilder: (context, viewModel) => Scaffold(body: buildBody(context)),
+      onPageBuilder: (context, viewModel) =>
+          Scaffold(body: buildBody(context, langManager, themeManager)),
     );
   }
 
-  Widget buildBody(BuildContext context) {
+  Widget buildBody(
+    BuildContext context,
+    LanguageManager langManager,
+    ThemeManager themeManager,
+  ) {
     return SafeArea(
       child: SingleChildScrollView(
         child: Center(
@@ -90,6 +95,25 @@ class HomeView extends StatelessWidget {
               Text(
                 AppLocalizations.of(context)!.helloWorld,
                 style: context.labelSmall,
+              ),
+
+              SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  if (langManager.langCode == LangCodes.tr) {
+                    langManager.changeLang(LangCodes.en);
+                  } else {
+                    langManager.changeLang(LangCodes.tr);
+                  }
+                },
+                child: Text(AppLocalizations.of(context)!.changeLang),
+              ),
+              SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  themeManager.changeTheme();
+                },
+                child: Text(AppLocalizations.of(context)!.changeTheme),
               ),
             ],
           ),

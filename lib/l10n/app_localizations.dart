@@ -103,6 +103,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Hello World!'**
   String get helloWorld;
+
+  /// Theme change button text
+  ///
+  /// In en, this message translates to:
+  /// **'Change Language'**
+  String get changeLang;
+
+  /// No description provided for @changeTheme.
+  ///
+  /// In en, this message translates to:
+  /// **'Change Theme'**
+  String get changeTheme;
 }
 
 class _AppLocalizationsDelegate

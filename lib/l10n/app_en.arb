@@ -2,5 +2,13 @@
   "helloWorld": "Hello World!",
   "@helloWorld": {
     "description": "The conventional newborn programmer greeting"
+  },
+  "changeLang": "Change Language",
+  "@changeLang": {
+    "description": "Language change button text"
+  },
+  "changeTheme": "Change Theme",
+  "@changeLang": {
+    "description": "Theme change button text"
   }
 }

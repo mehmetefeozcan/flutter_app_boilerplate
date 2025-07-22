@@ -41,12 +41,12 @@ mixin _$ThemeManager on _ThemeManagerBase, Store {
   );
 
   @override
-  void toggleChange() {
+  void changeTheme() {
     final _$actionInfo = _$_ThemeManagerBaseActionController.startAction(
-      name: '_ThemeManagerBase.toggleChange',
+      name: '_ThemeManagerBase.changeTheme',
     );
     try {
-      return super.toggleChange();
+      return super.changeTheme();
     } finally {
       _$_ThemeManagerBaseActionController.endAction(_$actionInfo);
     }

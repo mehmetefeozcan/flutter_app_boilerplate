@@ -2,5 +2,13 @@
   "helloWorld": "Merhaba Dünya!",
   "@helloWorld": {
     "description": "Geleneksel yeni doğan programcı selamlaması"
+  },
+  "changeLang": "Dil Değiştir",
+  "@changeLang": {
+    "description": "Dil değiştirme butonu yazısı"
+  },
+  "changeTheme": "Tema Değiştir",
+  "@changeLang": {
+    "description": "Tema değiştirme butonu yazısı"
   }
 }

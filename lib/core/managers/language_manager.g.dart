@@ -15,13 +15,13 @@ mixin _$LanguageManager on _LanguageManagerBase, Store {
   );
 
   @override
-  String get langCode {
+  LangCodes get langCode {
     _$langCodeAtom.reportRead();
     return super.langCode;
   }
 
   @override
-  set langCode(String value) {
+  set langCode(LangCodes value) {
     _$langCodeAtom.reportWrite(value, super.langCode, () {
       super.langCode = value;
     });
@@ -33,7 +33,7 @@ mixin _$LanguageManager on _LanguageManagerBase, Store {
   );
 
   @override
-  void changeLang(String lang) {
+  void changeLang(LangCodes lang) {
     final _$actionInfo = _$_LanguageManagerBaseActionController.startAction(
       name: '_LanguageManagerBase.changeLang',
     );
